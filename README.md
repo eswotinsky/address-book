@@ -22,6 +22,9 @@ The application collects users contact information to store in an address book.
   * Input Example: User inputs their full name.
   * Output Example: Name appears on the screen underlined.
 
+  * Input Example: User inputs their address or addresses.
+  * Output Example: Name and address or addresses display according to user input.
+
 
 ## Technologies Used
 
