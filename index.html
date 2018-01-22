@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>    <title></title>
+    <script src="js/scripts.js"></script>
     <title>Address book</title>
    </head>
    <body>
@@ -26,6 +26,25 @@
               <input type="text" class="form-control" id="new-last-name">
             </div>
 
+            <div id="new-addresses">
+             <div class="new-address">
+            <div class="form-group">
+              <label for="new-street">Street</label>
+              <input type="text" class="form-control" id="new-street">
+            </div>
+            <div class="form-group">
+              <label for="new-city">City</label>
+              <input type="text" class="form-control" id="new-city">
+            </div>
+            <div class="form-group">
+              <label for="new-state">State</label>
+              <input type="text" class="form-control" id="new-state">
+            </div>
+          </div>
+        </div>
+
+            <span class="btn btn-primary" id="add-address">Another address</span>
+
             <button type="submit" class="btn">Add</button>
           </form>
 
@@ -36,11 +55,11 @@
          </div>
          <div class="col-md-6">
           <div id="show-contact">
-          <h2></h2>
+            <h2>TEST</h2>
 
-          <p>First name: <span class="first-name"></span></p>
-          <p>Last name: <span class="last-name"></span></p>
-        </div>
+            <p>First name: <span class="first-name"></span></p>
+            <p>Last name: <span class="last-name"></span></p>
+          </div>
          </div>
        </div>
      </div>
