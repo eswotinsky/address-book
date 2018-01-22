@@ -17,13 +17,13 @@ The application collects users contact information to store in an address book.
 
 ## Specifications
 
-* The program prompts users to input a first and last name, and appends the full name to a list.
+* The program prompts users to input a first and last name, as well as one or more addresses. These data points are stored as an object and appended to a list of contacts.
 
-  * Input Example: User inputs their full name.
-  * Output Example: Name appears on the screen underlined.
+  * Input Example: User inputs a name and address.
+  * Output Example: Name appears on the screen under Contacts list.
 
-  * Input Example: User inputs their address or addresses.
-  * Output Example: Name and address or addresses display according to user input.
+  * Input Example: User clicks on a name under the Contacts list.
+  * Output Example: More detailed information about that contact, including address/es, is displayed to the right of the page.
 
 
 ## Technologies Used
